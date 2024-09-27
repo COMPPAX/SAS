@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*inicio cabecera*/
+.cabecera{
+    background-color: #d80d22;
+    width: 100%;
+    height: 30px;
+    padding: 0 75px;
+}
+.cabecera_2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 75px;
+    padding: 0 75px;
+}
+.cabecera_link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera_img{
+    object-fit: cover;
+    height: 90%;
+
+}
+/*fin cabecera*/
+
+/*inicio navegacion*/
+.navegacion{
+    background-color: #d80d22;
+    width: 100%;
+    height: 70px;
+    padding: 0 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.navegacion a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+padding: 30px 60px;
+}
+.navegacion a:hover{
+    color: #d80d22;
+    background-color: rgb(255, 255, 255);
+    }
+
+/*fin navegacion*/
+
+/*inicio banner*/
+.banner{
+    background-image: url(../img/asesoriaprincipal.jpg);
+    background-position: center;
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.banner h1{
+    padding: 50px;
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+}
+.banner h4{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.banner a{
+background-color: #d80d22;
+width: 250px;
+height: 60px;
+border-radius: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+font-size: 25px;
+color: rgb(255, 255, 255);
+margin-top: 50px;
+}
+/*fin banner*/
+
+/*inicio seccion 1*/
+.section-1{
+    background-color: #d80d22;
+    width: 100%;
+    height: 100%;
+}
+.titulo_industrias{
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    padding: 0 75px;
+    justify-content: center;
+    align-items: center;
+    color: #d80d22;
+    display: flex;
+    flex-direction: row;
+
+}
+.titulo_industrias h2{
+  
+    text-align: center;
+    font-size: 50px; 
+}
+.titulo_industrias h3{
+    background-color: #d80d22;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0 75px;
+}
+.industrias-img{
+    width: 100%;
+}
+.industrias-img img{
+    object-fit: cover;
+    width: 100%;
+}
+/*fin secion-1*/
+
+/*inicio navegacion botones*/
+.botones{
+    background-color: #d80d22;
+    width: 100%;
+    height: 70px;
+    padding: 0 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.botones a{
+width: 250px;
+height: 60px;
+border-radius: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+font-size: 25px;
+color: rgb(255, 255, 255);
+margin-top: 20px;
+}
+.botones a:hover{
+    color: #d80d22;
+    background-color: rgb(255, 255, 255);
+    }
+
+/*fin navegacion botones*/
+
+/*inicio secion -2 */
+.form-div{
+    background-color: #d80d22;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 100px;
+}
+.form-div h2{
+    font-size: 35px;
+    padding: 10px 0;
+}
+.form-div a{
+    font-size: 30px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #d80d22;
+    border-radius: 20px;
+}
+.form-div a:hover{
+    color: #d80d22;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    }
+.form-div p{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.formulario{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.input{
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.textarea{
+    width: 100%;
+    height: 80px;
+    margin: 5px 0;
+    resize: none;
+    border-radius: 5px;
+}
+.submit{
+    width: 50%;
+    height: 45px;
+    margin: 5px 0;
+    background-color: rgb(255, 255, 255);
+    color: #d80d22;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/*fin secion -2 */
+
+/*inicio secion -3 */
+.slider{
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+.slider .slider-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    width: calc(200px * 12);
+    -webkit-animation: scroll 40s linear infinite;
+}
+.slider .slide{
+    width: 200px;
+}
+.slider .slide img{
+    width: 100%;
+}
+@keyframes scroll {
+    0%{
+        transform:translateX(0)
+        }
+    100%{
+            transform:translateX(cal(-200px * 12))
+            }
+}
+/*fin secion -3 */
+
+/*inicio secion -4 */
+.footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #d80d22;
+}
+.footer a{
+    text-decoration: none;
+    color: #d80d22;
+    font-size: 18px;
+}
+
+.footer p{
+    color: #d80d22;
+    font-size: 18px;
+}
+
+
+/*inicio secion -4 */
+
+/*marcas pagina/
+
+Nosotros*/
+.somos{
+    background-image: url(../img/distribucionfondo.jpeg);
+    background-size: 100%;
+    background-position: 0%;
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: #ffffff;
+    text-align: left;
+}
+.somos h1{
+    padding: 50px;
+    font-size: 75px;
+    font-variant: initial;
+   
+}
+.somos h4{
+    padding: 50px;
+    font-size: 20px;
+    margin-top: 5px;
+    background-color: #d80d22;
+}
+.valores{
+    background-color: #d80d22;
+    width: 100%;
+    height: 100%;
+}
+.valoreslista{
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    padding: 0 75px;
+    justify-content: center;
+    align-items: center;
+    color: #d80d22;
+    display: flex;
+    flex-direction: row;
+
+}
+.valores h2{
+    text-align: center;
+    font-size: 50px; 
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding: 5px 0;
+}
+.valoreslista h3{
+    background-color: #d80d22;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0 75px;
+}
+.imagen-container{
+    width: 100%;
+    max-width: 3000px;
+    margin: auto;
+}
+.imagen-container img{
+    width: 100%;
+    height: auto;
+
+}
+@media (max-width:600px)  {
+    .imagen-container {
+        max-width: 100%;
+    }
+}
+@media (max-width:800px)  {
+    .imagen-container {
+        max-width: 100%;
+    }
+}
+/*nosotrosfin*/ 
+
+.videos{
+    width: 100%;
+    display: flex;
+}

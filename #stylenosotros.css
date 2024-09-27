@@ -1,0 +1,63 @@
+Nosotros*/
+.somos{
+    background-image: url(../img/distribucionfondo.jpeg);
+    background-size: 100%;
+    background-position: 0%;
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: #ffffff;
+    text-align: left;
+}
+.somos h1{
+    padding: 50px;
+    font-size: 75px;
+    font-variant: initial;
+   
+}
+.somos h4{
+    padding: 50px;
+    font-size: 20px;
+    margin-top: 5px;
+    background-color: #d80d22;
+}
+.valores{
+    background-color: #d80d22;
+    width: 100%;
+    height: 100%;
+}
+.valoreslista{
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    padding: 0 75px;
+    justify-content: center;
+    align-items: center;
+    color: #d80d22;
+    display: flex;
+    flex-direction: row;
+
+}
+.valores h2{
+    text-align: center;
+    font-size: 50px; 
+    color: white;
+    padding: 5px 0;
+}
+.valoreslista h3{
+    background-color: #d80d22;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0 75px;
+}
